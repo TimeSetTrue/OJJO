@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url("../fonts/Roboto-Regular.eot"), url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.ttf") format("truetype"), url("../fonts/Roboto-Regular.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto-Regular';
+  font-size: 12px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #212A2F;
+}
+
+a,
+button {
+  color: #212A2F;
+}
+
+.container {
+  max-width: 1236px;
+  padding: 0;
+}
+
+div,
+p,
+form,
+input,
+a,
+span,
+button,
+i {
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+h3 {
+  letter-spacing: 0;
+}
+
+h4 {
+  letter-spacing: 0.02em;
+}
+
+a,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+a,
+button,
+input {
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+input,
+input:hover,
+input:focus,
+input:active,
+button,
+button:hover,
+button:focus,
+button:active {
+  outline: none;
+}
+
+.btn {
+  text-transform: uppercase;
+  border: none;
+  background: #fff;
+  border-radius: 5px;
+  padding: 15px 0;
+  letter-spacing: 2px;
+  font-weight: 400;
+  line-height: 16.5px;
+  font-size: 14px;
+  width: 180px;
+  -webkit-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+.btn:hover {
+  color: #fff;
+  background: #000;
+}

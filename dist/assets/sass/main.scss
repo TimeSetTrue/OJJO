@@ -1,0 +1,139 @@
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url('../fonts/Roboto-Regular.eot'),
+		/* IE9 Compat Modes */
+		url('../fonts/Roboto-Regular.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/Roboto-Regular.woff') format('woff'),
+		/* Pretty Modern Browsers */
+		url('../fonts/Roboto-Regular.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/Roboto-Regular.svg#svgFontName') format('svg');
+	/* Legacy iOS */
+}
+
+//Спецификации
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto-Regular';
+	font-size: 12px;
+	line-height: 21px;
+	font-weight: 400;
+	color: #212A2F;
+}
+
+a,
+button {
+	color: #212A2F;
+}
+
+.container {
+	max-width: 1236px;
+	padding: 0;
+}
+
+div,
+p,
+form,
+input,
+a,
+span,
+button,
+i {
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+ul,
+li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+section {
+	// padding-bottom: ;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	letter-spacing: 0;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+h2 {
+	font-size: 32px;
+	line-height: 42px;
+	letter-spacing: 0.5px;
+	text-align: center;
+}
+
+h3 {
+	letter-spacing: 0;
+}
+
+h4 {
+	// font-size: 18.33px;
+	letter-spacing: 0.02em;
+}
+
+a,
+a:hover,
+a:active {
+	text-decoration: none;
+}
+
+a,
+button,
+input {
+	transition: all 0.5s ease;
+}
+
+input,
+input:hover,
+input:focus,
+input:active,
+button,
+button:hover,
+button:focus,
+button:active {
+	outline: none;
+}
+
+.btn {
+	text-transform: uppercase;
+	border: none;
+	background: #fff;
+	border-radius: 5px;
+	padding: 15px 0;
+	letter-spacing: 2px;
+	font-weight: 400;
+	line-height: 16.5px;
+	font-size: 14px;
+	width: 180px;
+	transition: all 0.7s ease;
+}
+
+.btn:hover {
+	color: #fff;
+	background: #000;
+}
+
+//////////////////////////
