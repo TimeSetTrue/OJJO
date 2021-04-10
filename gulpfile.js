@@ -10,7 +10,7 @@ const gulp = require('gulp'),
 const dist = "./dist/";
 
 gulp.task("copy-html", () => {
-    return gulp.src("./src/index.html")
+    return gulp.src("./src/*.html")
                 .pipe(gulp.dest(dist))
                 .pipe(browserSync.stream());
 });
@@ -88,7 +88,7 @@ gulp.task("watch", () => {
 		notify: true
     });
     
-    gulp.watch("./src/index.html", gulp.parallel("copy-html"));
+    gulp.watch("./src/*.html", gulp.parallel("copy-html"));
     gulp.watch("./src/assets/**/*.*", gulp.parallel("copy-assets"));
 	  gulp.watch("./src/assets/**/*.*", gulp.parallel("sass"));
     gulp.watch("./src/js/**/*.js", gulp.parallel("build-js"));
