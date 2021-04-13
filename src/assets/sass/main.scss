@@ -446,10 +446,10 @@ button:active {
 
 
 
-.contact {
+.networks {
 	padding-bottom: 150px;
 
-	.contact__head {
+	.networks__head {
 		text-align: center;
 		color: #333333;
 
@@ -458,7 +458,7 @@ button:active {
 		h2 {}
 	}
 
-	.contact__content {
+	.networks__content {
 		.row {
 			width: 100%;
 			margin: 0 auto;
@@ -967,8 +967,119 @@ button:active {
 					color: #fff;
 				}
 			}
-
-
 		}
+	}
+}
+
+
+////////////contact/////////
+
+.contact {
+	color: #333;
+	padding: 60px 0 40px;
+
+
+	a {
+		color: #333;
+	}
+
+	.contact__bread {
+		width: 155px;
+		text-align: center;
+		margin: 0 auto;
+
+		ul {
+			justify-content: space-between;
+			margin-bottom: 45px;
+
+			li {
+				a {
+					text-decoration: revert;
+				}
+			}
+		}
+	}
+
+	.contact__content {
+		padding-bottom: 60px;
+		border-bottom: 1px solid #D6D6D6;
+
+		h2 {
+			font-size: 24px;
+			text-transform: uppercase;
+			margin-bottom: 40px;
+		}
+
+		.contact__wrapp {
+			h4 {
+				font-size: 18px;
+				font-weight: bold;
+			}
+
+			ul {
+				margin-top: 25px;
+
+				.block__contact {
+					margin-right: 15px;
+
+					i {}
+				}
+
+				.block__contact_text {
+					li {
+						margin-bottom: 15px;
+
+						a {}
+					}
+
+					li:last-child {
+						margin: 0;
+					}
+				}
+			}
+
+			.contact__office {}
+
+			.contact__phone {
+				h4 {}
+
+				ul {
+					.block__contact {
+						li {
+							a {}
+						}
+
+						i {}
+					}
+
+					li {
+						a {}
+					}
+				}
+			}
+
+			.contact__email {
+				h4 {}
+
+				ul {
+					.block__contact {
+						li {
+							a {}
+						}
+
+						i {}
+					}
+
+					li {
+						a {}
+					}
+				}
+
+			}
+		}
+	}
+
+	.contact__map {
+		margin-top: 60px;
 	}
 }
