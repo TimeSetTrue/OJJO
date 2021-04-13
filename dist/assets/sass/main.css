@@ -688,6 +688,18 @@ button:active {
   margin-top: 10px;
 }
 
+.score .score__wrapp .score__content .score__content_item .score__content_item-text a {
+  color: #333;
+}
+
+.score .score__wrapp .score__content .score__content_item .score__content_item-text a:last-child {
+  color: #fff;
+}
+
+.score .score__wrapp .score__content .score__content_item .score__content_item-text a:last-child:hover {
+  color: #333;
+}
+
 .score .score__wrapp .score__content .style__row {
   padding: 60px 0;
   border-top: 1px solid #D6D6D6;
@@ -742,4 +754,122 @@ button:active {
 
 .approach .approach__block .approach__icon .approach__icon-apiece p {
   margin-top: 15px;
+}
+
+.item {
+  padding: 60px 0 120px;
+  color: #333;
+}
+
+.item a {
+  color: #333;
+}
+
+.item .bread {
+  margin-bottom: 50px;
+}
+
+.item .bread .bread__list {
+  width: 470px;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.item .bread .bread__list li a {
+  -webkit-text-decoration: revert;
+          text-decoration: revert;
+}
+
+.item .item__container .slider .slider__small {
+  width: 100%;
+  padding-top: 30px;
+}
+
+.item .item__container .item__container_wrapp {
+  padding: 10px;
+  border: 1px solid #D6D6D6;
+}
+
+.item .item__container .item__container_wrapp .item__content {
+  padding: 40px 30px;
+  border: 1px solid #D6D6D6;
+}
+
+.item .item__container .item__container_wrapp .item__content .item__content_head h3 {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.item .item__container .item__container_wrapp .item__content .item__content_head .item__content_head-bread {
+  margin: 30px 0;
+  color: #979797;
+}
+
+.item .item__container .item__container_wrapp .item__content .item__content_head .item__content_head-bread ul .content__bread {
+  margin-right: 25px;
+}
+
+.item .item__container .item__container_wrapp .item__content .item__content_head .item__content_head-bread ul .content__bread li {
+  margin-right: 15px;
+}
+
+.item .item__container .item__container_wrapp .item__content .item__content_head .item__content_head-bread ul .content__bread li a {
+  color: #979797;
+}
+
+.item .item__container .item__container_wrapp .item__content .item__content_head .item__content_head-bread ul .content__bread:last-child {
+  margin: 0;
+}
+
+.item .item__container .item__container_wrapp .item__content .item__content_center p {
+  padding: 30px 0;
+  border-top: 1px solid #D6D6D6;
+}
+
+.item .item__container .item__container_wrapp .item__content .item__content_center span {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.item .item__container .item__container_wrapp .item__content .item__content_bottom {
+  margin-top: 30px;
+}
+
+.page-item {
+  padding-top: 0;
+}
+
+.page-item h2 {
+  text-align: left;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.recommendation {
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+.recommendation .recommendation__head {
+  color: #333;
+}
+
+.recommendation .recommendation__head p {
+  font-size: 21px;
+}
+
+.recommendation .recommendation__head h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.recommendation .recommendation__block .recommendation__content_item .recommendation__content_item-text a {
+  color: #333;
+}
+
+.recommendation .recommendation__block .recommendation__content_item .recommendation__content_item-text .recommendation__btn {
+  color: #fff;
 }
